@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class Tester {
-  public static boolean DEBUG = true;
+  public static boolean DEBUG = flase;
   // TURN OFF BEFORE SUBMITTING
 
   public static void dprint(int[] array){
