@@ -32,9 +32,10 @@ public class Sorts{
          if (data[i] < min) {
            min = data[i];
            data[i] = data[j];
+           data[j] = min;
          }
        }
-       data[j] = min;
+       Tester.dprint(data);
      }
    }
 
