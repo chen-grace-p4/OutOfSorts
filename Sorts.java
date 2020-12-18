@@ -26,8 +26,16 @@ public class Sorts{
   *@param data - the elements to be sorted.
   */
    public static void selectionSort(int[] data){
-     
-
+     for (int j = 0; j < data.length; j++) {
+       int min = data[j];
+       for (int i = j; i < data.length; i++) {
+         if (data[i] < min) {
+           min = data[i];
+           data[i] = data[j];
+         }
+       }
+       data[j] = min;
+     }
    }
 
    /**insertion sort of an int array.
