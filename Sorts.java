@@ -35,7 +35,7 @@ public class Sorts{
            data[j] = min;
          }
        }
-       Tester.dprint(data);
+       Tester.dprint(data); //TURN OFF USED FOR TESTING ONLY
      }
    }
 
@@ -44,7 +44,17 @@ public class Sorts{
   *@param data - the elements to be sorted.
   */
    public static void insertionSort(int[] data){
+     for (int j = 1; j < data.length; j++) {
+       int current = data[j];
+       for (int i = j-1; i >= 0; i--) {
+         while (data[i] > data[j]) {
+           data[j] = data[i];
+           data[i] = current;
+           Tester.dprint(data);
+         }
+       }
 
+     }
    }
 
 }

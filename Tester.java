@@ -26,6 +26,8 @@ public class Tester {
     // Sorts.selectionSort(array);
     // Sorts.selectionSort(array3);
     // Sorts.selectionSort(array4);
-    Sorts.selectionSort(array6);
+    // Sorts.selectionSort(array6);
+
+    Sorts.insertionSort(array);
   }
 }
