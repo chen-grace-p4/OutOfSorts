@@ -17,8 +17,8 @@ public class Sorts{
       if (count == 0) {
         j = 0; //stops it if no passes since count is 0
       }
-      // Tester.dprint(data); //USED FOR TESTING
     }
+    // Tester.dprint(data); //USED FOR TESTING
   }
 
   /**selection sort of an int array.
@@ -37,6 +37,7 @@ public class Sorts{
        }
        // Tester.dprint(data); //TURN OFF USED FOR TESTING ONLY
      }
+     // Tester.dprint(data); //USED FOR TESTING
    }
 
    /**insertion sort of an int array.
@@ -54,6 +55,7 @@ public class Sorts{
        }
        // Tester.dprint(data);
      }
+     // Tester.dprint(data); //USED FOR TESTING
    }
 
 }
