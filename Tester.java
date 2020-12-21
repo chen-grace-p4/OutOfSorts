@@ -28,6 +28,13 @@ public class Tester {
     // Sorts.selectionSort(array4);
     // Sorts.selectionSort(array6);
 
-    Sorts.insertionSort(array);
+    int[] A = {4,3,2,10,12,1,5,6};
+    int[] B = {4,3,2,10,12,1,5,6};
+    Sorts.insertionSort(A);
+    // Sorts.insertionSort(array);
+    System.out.println(" ");
+    Sorts.selectionSort(B);
+    System.out.println(" ");
+    Sorts.bubbleSort(B);
   }
 }

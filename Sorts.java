@@ -35,7 +35,7 @@ public class Sorts{
            data[j] = min;
          }
        }
-       Tester.dprint(data); //TURN OFF USED FOR TESTING ONLY
+       // Tester.dprint(data); //TURN OFF USED FOR TESTING ONLY
      }
    }
 
@@ -47,13 +47,12 @@ public class Sorts{
      for (int j = 1; j < data.length; j++) {
        int current = data[j];
        for (int i = j-1; i >= 0; i--) {
-         while (data[i] > data[j]) {
-           data[j] = data[i];
+         while (data[i] > current) {
+           data[i+1] = data[i];
            data[i] = current;
-           Tester.dprint(data);
          }
        }
-
+       // Tester.dprint(data);
      }
    }
 
